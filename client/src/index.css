@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.no-dec {
+  color: inherit;
+}
+
+.no-dec-2 {
+  color: inherit;
+  text-decoration: none;
+}
+
+.dropdownUl {
+  padding: 0 !important;
+}
+
+.dropdownLi {
+  padding: 8px 20px;
+  width: 100%;
+  display: block;
+}
+
+.dropdownLi:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdownLi:hover .dLiIcon {
+  transform: translateX(4px);
+}
+
+.dLiIcon {
+  transition: transform 0.3s ease;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+
+/* noscrollbar */  
+::-webkit-scrollbar {  
+  scrollbar-width: none;  
+  width: 0px;  
+  display: none;  
+}
+
+.animated {
+  transition: all 0.3s ease;
+}
+body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+/* ubah warna seleksi teks ke invert */  
+::selection {  
+  background: #1f1f1f;  
+  color: white;
+}
+
+.myModal {
+  padding: 10px 15px;
+}
